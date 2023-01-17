@@ -21,6 +21,6 @@ pipeline {
                 input message: 'Finished using the web site? (Click "Proceed" to continue)'
                 sh 'sudo ./jenkins/scripts/kill.sh'
             }
-        }
-    }
+        }
+    }
 }
